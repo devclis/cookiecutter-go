@@ -1,13 +1,14 @@
 {
-  "full_name": "romnn",
-  "email": "contact@romnn.com",
-  "github_username": "romnn",
-  "docker_hub_username": "romnn",
-  "project_name": "gofaster",
+  "full_name": "Thonifho Muhali",
+  "email": "thmuhali@gmail.com",
+  "author_github_username": "tony-rsa",
+  "github_username": "devclis",
+  "docker_hub_username": "tony-rsa",
+  "project_name": "Go Faster",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "binary_name": "{{ cookiecutter.project_slug }}",
   "public_import_path": "github.com/{{ cookiecutter.github_username.lower() }}",
   "version": "0.0.1",
-  "project_type": ["module", "tool", "both"],
+  "project_type": ["module", "tool", "both", "cli"],
   "travis_plan": ["com", "org"]
 }
